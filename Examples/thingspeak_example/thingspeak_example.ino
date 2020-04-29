@@ -7,10 +7,10 @@ WiFiClient  client;                                              //declare that 
 
 
 //----------------Fill in your Wi-Fi / ThingSpeak Credentials-------
-const String ssid = "NETGEAR54-2.4G";                                 //The name of the Wi-Fi network you are connecting to
-const String pass = "purpleapple996";                             //Your WiFi network password
-const long myChannelNumber = 1039936;                            //Your Thingspeak channel number
-const char * myWriteAPIKey = "X4H44SSQZ00S8OJH";                 //Your ThingSpeak Write API Key
+const String ssid = "Wifi Name";                                 //The name of the Wi-Fi network you are connecting to
+const String pass = "Wifi Password";                             //Your WiFi network password
+const long myChannelNumber = NNNNNNN;                            //Your Thingspeak channel number
+const char * myWriteAPIKey = "XXXXXXXXXXXXXXXX";                 //Your ThingSpeak Write API Key
 //------------------------------------------------------------------
 
 Ezo_board PH = Ezo_board(99, "PH");                              //create a pH circuit object, who's I2C address is 99 and name is "PH"
